@@ -1,0 +1,169 @@
+#html, body{
+    height:inherit;
+    margin: 0;
+    padding: 0;
+}
+#bodyWrapper{
+    width: inherit;
+    height: inherit;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 100px;
+    margin-top:70px;
+}
+#story_results{ 
+    margin-top:30px;
+    margin-left:11.5%;
+    margin-right:15%;
+    max-width:648px;
+    min-width:648px;
+    width:auto;
+    border-spacing: 0;
+}
+
+.story_description{
+   height:40px;
+   overflow:hidden; 
+   font-size:14px;
+   margin:0;
+}
+
+#pagination{
+   text-align: center;
+}
+#search_bar{
+    width:auto;  
+    text-align: center;
+}
+
+.search_button{
+    padding:5px;
+    margin:0 0 0 -3px;
+}
+
+#search_input{
+    width:250px;
+}
+
+#num_results_div{
+    margin-top:30px;
+    max-width:648px;
+    min-width:648px;
+    width:auto;
+    margin-left:11.5%;
+    margin-right:15%;
+}
+
+#num_results{
+    color:#808080;
+}
+
+.story_wrapper{
+    margin-bottom: 30px;
+}
+.story_title_link{   
+    //color:#3399ff; 
+}
+
+.story_title_header{
+    vertical-align: top;
+    overflow:hidden;
+    margin:0;
+    text-align:left;
+    text-overflow:ellipsis;
+}
+
+.main_content{
+    margin-left:150px;
+}
+
+.story_image{
+    width:100%;
+    height:100%;
+}
+
+.thumbnail_link{
+    width:130px;
+    height:120px;
+    float:left;
+}
+
+.user_name{
+    margin-top:5px;
+    padding:0;
+    font-size:14px;
+    vertical-align:top;
+    text-align: left
+}
+
+.description_string{
+    padding:0;
+    margin:0;
+    font-size:13px;
+    
+}
+
+.nav-pills {
+    //height:30px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.story_tags{
+   //height:30px;
+   overflow:hidden;
+    width:70%;  
+    vertical-align:bottom;
+    display:inline-block;
+}
+
+.story_tags a{
+    //height:20px;
+}
+
+.search_button{
+    display:inline-block;
+}
+
+.show_more_tags{
+    display:inline-block;
+    margin-left:5px;
+}
+
+.favorite{
+    border:0;
+    width:80px;
+    display:inline-block;
+}
+
+.not_favorite{
+    width:100%;
+}
+
+.is_favorite{
+    width:100%;
+}
+
+/*
+favorite/not favorite icon
+*/
+.star_fav_icon{
+    margin-right: 3px;
+}
+
+.flag{
+   display:inline-block;
+   width:60px;
+   text-align:right;
+}
+
+.red{
+    color:red;
+}
+
+
+
+
+
+
+

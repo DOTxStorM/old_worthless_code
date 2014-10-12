@@ -1,0 +1,38 @@
+/**JS written for timeline portion of createStory page
+*
+* this file is supposed to accomplish the following functions:
+* Create new slide
+* Update database with slide position
+* Call widget info from DB when selected && update current_slide number when user selects a slide in the timeline
+* Populate timeline when new story loads
+* 
+* 
+*
+*
+*/
+/**
+ * seavy creating story for timeline
+ * @class SeaveyCreateStoryTimeline
+ */
+
+/**
+ * add slide
+ * @method addSlide
+ */
+function addSlide()
+{
+	try{
+		var ul = document.getElementById("sortable");//get current sortable timeline list
+		var li = document.createElement("li"); //create a new li to add to it
+		var p = document.createElement("p"); //create a p to put in the li
+		li.setAttribute("class", "slideSorter"); //ensure the li is the same class as the current list
+		li.setAttribute("id", "slide-4")//this needs to find out how many slides there are
+		var txt = document.createTextNode("Slide 4"); //this also needs to find out how many slides there are
+		p.appendChild(txt); //put the text in the p
+		li.appendChild(p); //p in the li
+		ul.appendChild(li);	//li in the ul								
+	}
+	catch(e){
+		log("SeaveyCreateStoryTimeline.js", e.lineNumber, e);
+	}
+}

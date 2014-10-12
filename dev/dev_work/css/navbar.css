@@ -1,0 +1,35 @@
+body {
+	padding-top: 70px;
+	padding-bottom: 20px;
+}
+
+.navbar{
+	margin-bottom: 20px;
+}
+
+/* .navbar-brand {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin: auto;
+} */
+
+/* .navbar {
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+} */
+
+#or_box {
+    color: #777777;
+    padding: 10px;
+    display: inline-block;
+    margin:auto;
+    vertical-align:middle;
+}
+
+#or_text {
+    vertical-align:middle;
+}

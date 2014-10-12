@@ -1,0 +1,104 @@
+html {
+    height: 100%;
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color:#dddddd;
+    text-align:center;
+    height: 100%;
+    margin: 0;
+    padding:0;
+    display:inline;
+}
+
+#wrapper_main {
+    width: 100%;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 0 -60px 0;
+}
+
+#wrapper_content {
+    width: 100%;
+    padding: 0 0 60px 0;
+}
+
+// Contains all the subsections of the page, besides the header and footer
+#create_content{
+    margin: 0;
+    padding: 0;
+    width: 960px;
+    height: 700px;
+    background-color: #000000;
+    display: inline;
+    text-align: center;
+}
+
+// Sidebars
+.sidebar_wrapper{
+    
+}
+.sidebar_top{
+    display: inline-block;
+    margin: 0;
+    width: 150px;
+    height: 350px;
+    background-color: blueviolet;
+    float:left;
+    display: inline-block;
+    border-radius: 20px;
+    text-align: center;
+
+}
+.sidebar_bottom{
+    width: 150px;
+    height: 200px;
+    background-color: blue;
+    float:left;
+    display:inline-block;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+// Slide
+#slide_wrapper{
+    float:left;
+}
+
+.slide{
+    float:left;
+    margin: 0;
+    width: 660px;
+    height: 550px;
+    background-color: pink;
+}
+// Slide that is open and being edited
+#current_slide{
+    
+}
+
+
+// Timeline
+#timeline_wrapper{
+    clear:both;
+}
+#timeline{
+    background-color: black;
+    color:white;
+    width: 960px;
+    height: 150px;
+    clear:both;
+}
+
+.drag_widget{
+    height: 50px;
+    width:50px;
+    text-align: center;
+    padding: 5px;
+    margin:10px;
+    background-color: #ffffff;
+}

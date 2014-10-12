@@ -1,0 +1,63 @@
+#main_content{
+    text-align: left;
+    border-spacing: 0;
+}
+
+#story_title{
+    text-align:left;
+}
+#story_description{
+    display:inline-block;
+    vertical-align: top;
+}
+#profile_pic{
+    width: 48px;
+    height: 48px;
+}
+
+#user_info{
+    float:left;
+}
+
+#favorite{
+    margin-top:10px;
+    border:0;
+    width:80px;
+    display:inline-block;
+}
+
+#tag_content{
+    margin-top:20px;
+}
+
+.not_favorite{
+    width:100%;
+}
+
+.is_favorite{
+    width:100%;
+}
+
+.star_fav_icon{
+    margin-right: 3px;
+}
+
+#flag{
+   display:inline-block;
+}
+
+.red{
+    color:red;
+}
+
+.slides {
+    height: 118px;
+    width: 880px;
+    margin: 10px 0px 10px 5px;
+}
+
+.slide_list_item {
+    display: inline-block;
+        vertical-align:bottom;
+}
+

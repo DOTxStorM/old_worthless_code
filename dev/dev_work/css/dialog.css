@@ -1,0 +1,55 @@
+
+.ui-widget {
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 20px;
+}
+
+.ui-widget-content {
+    background: #FFFFFF;
+    border: 1px solid #7575ff;
+    color: #222222;
+}
+
+.ui-dialog {
+    left: 0;
+    outline: 0 none;
+    padding: 0 !important;
+    position: absolute;
+    top: 0;
+    draggable:false;
+    resizeable: false;
+    modal: true;
+}
+
+.ui-dialog-titlebar-close {
+  visibility: hidden;
+}
+
+.ui-dialog .ui-dialog-content {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    overflow: auto;
+    position: relative;
+    padding: 0 !important;
+}
+
+.ui-widget-header {
+    background: #7575ff;
+    border: 0;
+    color: #fff;
+    font-weight: normal;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+    text-align:left;
+    padding: 5px 15px;
+    position: relative;
+    font-size: 30px;
+}
+
+#file_dialog{
+    font-size: 12px;
+    background: #FFFFFF;
+    border: 1px solid #7575ff;
+    color: #222222;
+}

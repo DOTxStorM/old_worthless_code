@@ -1,0 +1,103 @@
+.story_wrapper{
+    height:120px;
+    margin-bottom: 30px;
+}
+.story_title_link{   
+    //color:#3399ff; 
+}
+
+.story_title_header{
+    vertical-align: top;
+    overflow:hidden;
+    margin:0;
+    text-align:left;
+    text-overflow:ellipsis;
+}
+
+.main_content{
+    margin-left:140px;
+    height:120px;
+}
+
+.story_image{
+    width:100%;
+    height:100%;
+}
+
+.thumbnail_link{
+    width:130px;
+    height:120px;
+    float:left;
+}
+
+.user_name{
+    margin-top:5px;
+    padding:0;
+    font-size:14px;
+    vertical-align:top;
+    text-align: left
+}
+
+.description_string{
+    padding:0;
+    margin:0;
+    font-size:13px;
+    
+}
+
+.nav-pills {
+    //height:30px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.story_tags{
+   //height:30px;
+   overflow:hidden;
+    width:70%;  
+    vertical-align:bottom;
+    display:inline-block;
+}
+
+.story_tags a{
+    //height:20px;
+}
+
+.search_button{
+    display:inline-block;
+}
+
+.show_more_tags{
+    display:inline-block;
+    margin-left:5px;
+}
+
+.favorite{
+    border:0;
+    width:80px;
+    display:inline-block;
+}
+
+.not_favorite{
+    width:100%;
+}
+
+.is_favorite{
+    width:100%;
+}
+
+/*
+favorite/not favorite icon
+*/
+.star_fav_icon{
+    margin-right: 3px;
+}
+
+.flag{
+   display:inline-block;
+}
+
+.red{
+    color:red;
+}
+

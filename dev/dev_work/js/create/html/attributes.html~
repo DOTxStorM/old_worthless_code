@@ -1,0 +1,104 @@
+<style>
+.formAttributes {
+	font:12px arial,sans-serif;
+}
+
+.formAttributes input{
+	font:10px arial,sans-serif;
+}
+
+.formAttributes div#textWidget{
+	font: 10px arial, sans-serif;
+}
+</style>
+
+<form class="formAttributes">
+	<b> Transform </b> <br>
+	<br>
+	Position X: <input type="text" id="posX" size="3"> Y: <input type="text" id="posY" size="3"> <br>
+	Layer: <input type="text" id="layer" size="3"><br>
+	<br>
+	<b> Attributes </b> <br>
+	<!-- **************************TEXT WIDGETS**************************-->
+	<div id="textWidget">
+	<form>
+		Font: <select>
+		<!--Serif fonts-->
+		<option value="Georgia">Georgia</option>
+		<option value="Palatino">Palatino Linotype</option>
+		<option value="Times">Times New Roman</option>
+		<!--Sans-Serif fonts-->
+		<option value="Arial">Arial</option>
+		<option value="Gadget">Arial Black</option>
+		<option value="cursive">Comic Sans MS</option>
+		<option value="Impact">Impact</option>
+		<option value="Lucida Sans Unicode">Lucida Sans Unicode</option>
+		<option value="Tahoma">Tahoma</option>
+		<option value="Helvetica">Trebuchet MS</option>
+		<option value="Verdana">Verdana</option>
+		<!--Monospace fonts-->
+		<option value="Courier">Courier New</option>
+		<option value="Monaco">Lucida Console</option>
+		</select><br>
+		
+		Size: <select>
+		<option value="8">8</option>
+		<option value="12">12</option>
+		<option value="14">14</option>
+		<option value="16">16</option>
+		<option value="18">18</option>
+		<option value="20">20</option>
+		<option value="22">22</option>
+		<option value="24">24</option>
+		<option value="26">26</option>
+		<option value="28">28</option>
+		<option value="36">36</option>
+		<option value="48">48</option>
+		<option value="72">72</option>	
+		</select><br>
+		
+		Style: <input type="checkbox" name="style" value="bold"><b>Bold</b>
+			<input type="checkbox" name="style" value="italics"><i>Italics</i><br>
+		Text: <textarea type="text"  id="text"></textarea>
+	</form>
+	</div>
+	<!-- **************************IMAGE WIDGETS**************************-->
+	<div id="imageWidget">
+	<form>
+		<button type="button">Change Source</button><br> <!-- onclick="change source function()"-->
+		<div id='imageSize'></div>
+		Width: <input name="wid" id="wid" value="50" type="range" min="0" max="100">
+		Height: <input name="hei" id="hei" value="50" type="range" min="0" max="100">
+	</form>
+	</div>
+	<!-- **************************AUDIO WIDGETS**************************-->
+	<div id="audioWidget">
+	<form>
+		<button type="button">Change Source</button><br> <!-- onclick="change source function()"-->
+		Autoplay: <input type="checkbox" name="audioAP" value="autoplay"><b>Autoplay On</b><br>
+		<div id="offset">
+		Autoplay time offset: <input name="timeOffset" id="timeOffset" value="0" type="range" min="0" max="60">
+		</div>
+	</form>
+	</div>
+	<!-- **************************VIDEO WIDGETS**************************-->
+	<div id="movieWidget">
+	<form>
+		<button type="button">Change Source</button><br> <!-- onclick="change source function()"-->
+		Autoplay: <input type="checkbox" name="audioAP" value="autoplay"><b>Autoplay On</b><br>
+		<div id="offset">
+		Autoplay time offset: <input name="timeOffset" id="timeOffset" value="0" type="range" min="0" max="60">
+		<!--Scale: <input name="scale" id="scale" value="1" type range min="0.1" max ="3">-->
+		</div>
+	</form>
+	</div>
+	<br>
+	<button type="button" id="deleteWidget">Delete Widget</button><br>
+
+</form>
+<script>
+$('#textWidget').hide();
+$('#audioWidget').hide();
+$('#movieWidget').hide();
+$('#imageWidget').hide();
+</script>

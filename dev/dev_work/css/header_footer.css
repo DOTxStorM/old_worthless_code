@@ -1,0 +1,195 @@
+* {
+    font-family: Helvetica, sans-serif;
+}
+
+html{
+    margin:0;
+    padding:0;
+}
+
+body {
+    margin:0;
+    padding:0;
+}
+
+
+#header_wrapper {
+    display: block;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+#header {
+    padding:0;
+    width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    
+}
+
+.header_section {
+    height:100%;
+    float:left;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#search {
+    vertical-align: middle;
+}
+
+#search_bar{
+    font-size: 18px;
+}
+
+#search_button{
+    padding:5px;
+    margin:0 0 0 -3px;
+}
+
+.menu_button {
+    float: left;
+    padding:15px;
+    font-size: 17px;
+    background-color: #39F;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button .menu_button{
+    border-style: none;
+}
+
+.menu_button:hover{
+    background: #49A3FF;
+}
+
+#create_story {
+    float:right;
+}
+
+#h_dropdown{
+    float:right;
+}
+
+#storyblox {
+    color: #ffffff;
+    padding: 10px;
+    margin: 0;
+    display: inline-block;
+	font-size: 26px;
+	font-family: Orbitron, Helvetica;
+	margin-left:10px;
+	margin-right:10px;
+
+}
+
+.menu {
+    background-color:#3399ff;
+    padding: 0;
+    margin: 0;
+    width:100%;
+    float:left;
+}
+
+#footer {
+    margin:0 0 0 0;
+    padding: 15px 0 0 0;
+    height: 30px;
+    margin-top: -45px; /*hack for sticky footer, negative height of footer and main_wrapper needs bottom-padding same size*/
+    bottom: 0px;
+}
+
+#search_button	{
+	color:#39F;
+	background-color:#9CF; 
+	border: solid 0px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+#footer_list {
+    margin:0;
+    padding: 0;
+}
+
+.footer_item {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+.footer_link{
+    color: #ffffff;
+    font-size: 14px;
+}
+
+#h_button
+{	
+    display: inline;
+    margin: 0;
+    padding: 0;
+    z-index: 0
+}
+
+#h_button li
+{	
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+    font: bold 16px arial;
+    border: solid 1px #555555;
+
+}
+
+#h_button li a
+{	
+    display: block;
+    margin: 0;
+    padding:14px;
+    font-size: 18px;
+    width: 100px;
+    background: #5970B2;
+    color: #FFF;
+    text-align: center;
+    text-decoration: none
+}
+
+#h_button li a:hover
+{	
+    background: #49A3FF
+}
+
+#h_button div
+{	
+    position: absolute;
+    visibility: hidden;
+    margin: 0;
+    padding: 0;
+    background: #EAEBD8;
+    border: 1px solid #5970B2
+}
+
+#h_button div a
+{	
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 5px 10px;
+    width: 98px;
+    white-space: nowrap;
+    text-align: left;
+    text-decoration: none;
+    background: #EAEBD8;
+    color: #2875DE;
+    font: 16px arial}
+
+#h_button div a:hover
+{	
+    background: #49A3FF;
+    color: #FFF
+}

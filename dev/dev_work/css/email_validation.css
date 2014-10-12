@@ -1,0 +1,17 @@
+#message{
+    font-family:Verdana;
+	color:#0000cc;
+	font-variant: small-caps; 
+	font-weight: 100; 
+    font-size: 45px;
+	text-align:center;
+	margin-top:30px;
+}
+
+#subtext{
+    font-family:Calibri;
+	color:#4E443C;
+    font-size: 20px;
+	text-align:center;
+	margin-top: 5px;
+}

@@ -1,0 +1,20 @@
+.profile_info{
+	text-align:left;
+	vertical-align:top;
+}
+
+.profile_picture{
+	display: inline-block;
+	max-width: 150px;
+	max-height: 150px;	
+}
+
+.profile_info_text{
+	vertical-align:top;
+	display: inline-block;
+	padding: 10px;
+}
+
+.story_header{
+	color: #666666;
+}

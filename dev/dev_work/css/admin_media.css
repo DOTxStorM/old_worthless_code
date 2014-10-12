@@ -1,0 +1,31 @@
+.adminButton {
+	background-color: #1ca7dd;
+	margin-left:auto;
+	margin-right:auto;
+	width:70%;
+	cursor: pointer;
+	padding: 10px;
+	color:white;
+	border:2px solid;
+	border-radius:25px;
+}
+
+.mediaHolder{
+	margin-left:20%;
+	width:65%;
+	overflow: hidden;
+}
+
+.media_item{
+	width:100px;
+	height:100px;
+	margin:10px;
+	border:2px solid;
+	padding: 5px;
+	float:left;
+	border-radius:5px;
+}
+
+#file_upload{
+	margin-left:20px;
+}

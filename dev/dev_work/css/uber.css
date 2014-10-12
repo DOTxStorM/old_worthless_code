@@ -1,0 +1,27 @@
+/* Bootstrap Files */
+/* change to bootstrap.css or recompile */
+@import url("bootstrap.css");
+@import url("bootstrap-theme.css");
+@import url("jumbotron_narrow.css");
+
+/* Our Files 
+@import url("404.css");
+@import url("about.css");
+*/@import url("create_story.css");/*
+@import url("creator.css");
+@import url("dialog.css");
+@import url("faq.css");
+@import url("forgot_password.css");
+@import url("header_footer.css");
+@import url("home.css");
+@import url("main.css");
+@import url("my_stories.css");
+@import url("navbar.css");
+@import url("profile.css");
+@import url("SearchResultStyles.css");
+@import url("story_search_display.css");*/
+
+.test {
+  background-color:;
+
+}
